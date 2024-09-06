@@ -1,0 +1,102 @@
+.header{
+    background-color: #2D6660;
+}
+.sibebar{
+    width: 200px;
+}
+.course{
+    background-color: #2D6660
+    
+}
+.footer{
+    align-items:end;
+}
+
+
+.hero-section {
+    background-color: #045e69;
+    color: white;
+    width: 1150px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+.row{
+    
+    display: flex;
+    flex-direction: row; /* default value, aligns items in a row */
+    /* optional, spaces items evenly */
+    
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lesson-card, .game-card, .streak-box {
+    background-color: #336b63;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+button {
+    background-color: #045e69;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004499;
+}
